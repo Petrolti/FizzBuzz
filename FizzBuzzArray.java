@@ -15,6 +15,8 @@ public class FizzBuzzArray {
         for (int i = 1; i < 7; i++){                    //Write all ... 3 and 5 ... "FizzBuzz", overwrite number
             map[i*15-1] = "FizzBuzz";
         }
-        for (String s : map){System.out.println(s);}    //Print to console
+        for (int i = 0; i < map.length; i++){           //Print to console
+            System.out.println(map[i]);
+        }
     }
 }
